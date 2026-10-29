@@ -1,0 +1,93 @@
+{
+	"eminstall_config": {
+		"JobList": [
+			{
+				"sequenceNum": 0,
+				"jobType": "APPLY_SETTING",
+				"extraStr": [
+					"Enable",
+					"Enable",
+					"Disable"
+				]
+			}
+		]
+	},
+	"scanner_config": {
+		"scanner_enable": "Enable",
+		"scanner_type": "E3140",
+		"settingsList": [
+			"FACTORYMODE=1",
+			"Vibrator=1",
+			"Beep Success=/storage/emulated/0/ScannerBeep/ScanSuccess.wav",
+			"Beep Fail=/storage/emulated/0/ScannerBeep/ScanFail.wav",
+			"Result Type=6",
+			"Terminator=5",
+			"Inverse1DMode=2",
+			"IntercharacterDelay=50",
+			"szprefix=^",
+			"bprefix=1"
+		]
+	},
+	"button_config": {
+		"model_type": "FUNCNUMERIC_451",
+		"button_mapping": [
+			{
+				"define_name": "SPACE",
+				"change_name": "DirectInput",
+				"extend_data": "77",
+				"direct_input_meta": "0"
+			},
+			{
+				"define_name": "SOFT_LEFT",
+				"change_name": "DirectInput",
+				"extend_data": "69",
+				"direct_input_meta": "0"
+			}
+		]
+	},
+	"system_config": {
+		"automatic_date_time": "Enable"
+	},
+	"datetime_config": {
+		"automatic_date_time": "Enable"
+	},
+	"wiress_config": {
+		"hotspotConfig": {},
+		"wlan": "ON"
+	},
+	"wlan_config": {
+		"wifi_config": [
+			{
+				"ssid": "RC",
+				"hide": "false",
+				"password": "555test555",
+				"security": "wpa2psk",
+				"eap": "tls",
+				"pa2au": "none",
+				"identity": "",
+				"dhcp_ntp": "",
+				"user_cer": "",
+				"ca_cer": "",
+				"anonymous_identity": "",
+				"domain": "",
+				"ocsp": "",
+				"use_system_certs": "false",
+				"proxy_mode": "none",
+				"proxy_ad": "",
+				"proxy_port": "",
+				"bypassurl": "",
+				"whitelist": "false",
+				"ipaddr": "10.194.10.36",
+				"gateway": "10.194.10.36",
+				"subnetmask": "255.255.255.128",
+				"dns": "10.194.9.77",
+				"privacy": "1"
+			}
+		],
+		"set_wifi_power_save": "Disable",
+		"set_wifi_internet_access_auto": "Disable",
+		"set_wifi_roaming_trigger": "-70",
+		"set_24Ghz_channel_list": "1,2,3,4,5,6,7,8,9,10,11,12,13",
+		"set_5Ghz_channel_list": "36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144,149,153,157,161,165"
+	}
+}
